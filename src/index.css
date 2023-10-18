@@ -7,14 +7,24 @@
 
 .wrapper{
   max-width: 1440px;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-  margin: 0 auto;
   display: flex;
+  background-image: url("F:\React Learning\Github_Iksha_Labs\ToDo_List_React\public\logo512.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 25%;
+  background-position: 840px 125px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: top;
   align-items: center;
+}
+
+.label-form{
+  color: blue;
+  font-weight: bold;
 }
 
 .custom-form{

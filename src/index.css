@@ -12,6 +12,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   display: flex;
+  background-image: url("F:\React Learning\Github_Iksha_Labs\ToDo_List_React\build\logo512.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 25%;
